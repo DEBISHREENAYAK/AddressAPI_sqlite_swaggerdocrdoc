@@ -5,7 +5,7 @@ THIS IS A REST API USING FASIAPI
 
 
 to run  the  api : 
-cmd : - [  python -m uvicorn application:app --reload ]
+cmd : - [  python -m uvicorn main:app --reload]
 
 libraries used :
 

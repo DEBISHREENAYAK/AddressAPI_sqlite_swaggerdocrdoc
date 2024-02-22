@@ -7,6 +7,10 @@ THIS IS A REST API USING FASIAPI
 to run  the  api : 
 cmd : - [  python -m uvicorn main:app --reload]
 
+
+to check the api in swaggerdoc :
+http://127.0.0.1:8000/docs
+
 libraries used :
 
  command : pip install fastapi uvicorn aiosqlite databases pydantic requets SQLAlchemy
@@ -47,6 +51,41 @@ uvicorn==0.27.1
 you can also make a virtual env for this project
 cmd : - [ python -m venv denv  ] 
 to activate : .\denv\Scripts\activate   
+
+you can test in postman also:
+http://127.0.0.1:8000/addressdetails/
+
+[
+    {
+        "id": 1,
+        "name": "string",
+        "country": "string",
+        "phone": 0
+    },
+    {
+        "id": 2,
+        "name": "Debishree Nayak",
+        "country": "India",
+        "phone": 90786543125
+    },
+    {
+        "id": 3,
+        "name": "Krisha Sundar",
+        "country": "India",
+        "phone": 9912345231
+    },
+    {
+        "id": 4,
+        "name": "Krisha Sundar",
+        "country": "India",
+        "phone": 9912345231
+    },
+    {
+        "id": 5,
+        "name": "Radhika Mohanan",
+        "country": "India",
+        "phone": 7876031234
+    }
 
 
 

@@ -49,8 +49,8 @@ cmd : - [ python -m venv denv  ]
 to activate : .\denv\Scripts\activate   
 
 
-to run  the  api : 
-cmd : - [  python -m uvicorn application:app --reload ]
+
+happy coding
 
 
    

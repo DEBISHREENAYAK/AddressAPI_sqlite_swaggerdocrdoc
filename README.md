@@ -3,6 +3,10 @@
 
 THIS IS A REST API USING FASIAPI 
 
+
+to run  the  api : 
+cmd : - [  python -m uvicorn application:app --reload ]
+
 libraries used :
 
  command : pip install fastapi uvicorn aiosqlite databases pydantic requets SQLAlchemy
@@ -38,6 +42,16 @@ starlette==0.36.3
 typing_extensions==4.9.0
 urllib3==2.2.1
 uvicorn==0.27.1
+
+
+you can also make a virtual env for this project
+cmd : - [ python -m venv denv  ] 
+to activate : .\denv\Scripts\activate   
+
+
+to run  the  api : 
+cmd : - [  python -m uvicorn application:app --reload ]
+
 
    
 
